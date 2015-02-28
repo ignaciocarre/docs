@@ -23,9 +23,8 @@ such as debugging and translating content.
 .. php:function:: \_\_(string $string_id, [$formatArgs])
 
     This function handles localization in CakePHP applications. The
-    ``$string_id`` identifies the ID for a translation. Strings
-    used for translations are treated as format strings for
-    ``sprintf()``. You can supply additional arguments to replace
+    ``$string_id`` identifies the ID for a translation. You can supply 
+    additional arguments to replace
     placeholders in your string::
 
         __('You have {0} unread messages', $number);
